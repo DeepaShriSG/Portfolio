@@ -1,0 +1,302 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('../Fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('../Fonts/Raleway/Raleway-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-size: normal;
+}
+
+@font-face {
+  font-family: "Playfair Display", serif;
+  src: url('../Fonts/PlayFair/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../Fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-size: normal;
+}
+
+#root {
+
+   /* Font sizes */
+   --font-large: 36px;
+   --font-medium: 24px;
+   --font-small: 16px;
+
+  /* Font weights */
+  --font-weight-large: 600;
+  --font-weight-medium: 400;
+  --font-weight-small: 300;
+
+  /* Heading colors */
+ --primary:   #6e2bf4;
+ --secondary: #98DED9;
+ --tertiary: #16f2f5;
+ --navcolor: #dddddddd;
+
+}
+
+body {
+
+  font-family: "Raleway", sans-serif;
+  text-overflow: none;
+  box-sizing: border-box;
+  
+}
+
+
+li {
+  list-style-type: none;
+
+}
+
+h1 {
+  color: var(--primary);
+  font-family: "Playfair Display", serif;
+  font-size: 42px;
+  font-weight: var(--font-weight-large);
+  
+}
+
+h3 {
+  color: #d9dcdc;
+  font-size: 36px;
+  font-weight: var(--font-weight-medium);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+h5 {
+  color: var(--tertiary);
+  font-size: 18px;
+  font-weight: var(--font-weight-small);
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 
+  'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  max-width: 70ch;
+}
+
+h2{
+  color: #9a6df3;
+  text-align: center;
+  font-family:"Poppins",sans-serif;
+  font-weight: 400;
+  
+}
+
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: "Raleway", sans-serif;
+}
+
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-size: var(--font-small);
+  color: #010518;
+}
+
+
+.card-text{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont,
+   'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+input::placeholder{
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.title-name{
+  color: violet;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 54px;
+  font-weight: 600;
+}
+
+.tag-heading{
+  color: #03114e;
+  font-family: "Poppins",sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+
+.card{
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.bx{
+  color: #be27ec;
+  font-size: 36px;
+  cursor: pointer;
+}
+
+.menu button:hover,
+.menu button:focus {
+  transform: rotate(180deg);
+}
+
+
+.navbg{
+  background-color: #F9F9F9;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  
+}
+
+
+ .vr {
+  background-color: #6c6d6e;
+  opacity: 1.5;
+  width: 2px;
+  position: relative;
+}
+
+  .right-vr  {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 75px;
+    margin: -33px 24px -65px 31px;
+  } 
+
+  .socials {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    height: 100vh; 
+    padding: 2px;
+    background-color: transparent; 
+    z-index: 1000; 
+  }  
+
+.socials a:hover i,
+.socials a:focus i {
+  color: #08FFC8;
+}
+
+.nav-item a , .default{
+  color:#0d6efd;
+  background-color: transparent;
+  font-size: var(--font-small);
+  font-weight: var(--font-weight-large);
+  font-family: "Raleway", sans-serif;
+}
+
+
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:active {
+  color: #08FFC8;
+}
+
+.navbar-nav .nav-link.active:focus,
+.navbar-nav .nav-link:active:focus {
+  color: #08FFC8;
+}
+
+.nav-item a:hover , .nav-item a:focus {
+  color: #08FFC8;
+}
+
+.skills-vr{
+  height: 150px;
+}
+
+
+.hero-section{
+  padding: 10rem 2rem 0rem 2rem;
+}
+
+
+.accordion-button , 
+.accordion-buttoncollapsed {
+  border: 3px solid #10316B;
+  color: black;
+  
+}
+
+.card-title{
+  font-family: 'Raleway',sans-serif;
+    font-weight: 600;
+    color:Black;
+}
+
+.contact-section{
+  background-color: #00002e;
+}
+
+.contact-heading{
+  color: white;
+}
+
+.contact-subtitle{
+  color: violet;
+  font-weight: 400;
+}
+
+
+Form Label{
+  color: #08FFC8;
+}
+
+
+.submit-btn{
+  background-color: #4f46e5;
+  color:white;
+  
+}
+
+.submit-btn:focus , .submit-btn:hover{
+  background-color: #08FFC8;
+  color: #010518;
+}
+
+
+
+@media (max-width: 768px) {
+  
+  .bx{
+    color: #4f46e5;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  .socials {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    height: 100vh;
+    background-color: transparent; 
+    z-index: 1000; 
+  }  
+
+.socials a:hover i,
+.socials a:focus i {
+  color: var(--tertiary);
+}
+
+  .hero-section{
+    padding: 5rem 1rem 0rem 1rem;
+  }
+}
+
+@media (min-width:768) {
+   
+
+ 
+  .tag-content{
+    display: grid;
+    justify-content: flex-start;
+  }
+}
