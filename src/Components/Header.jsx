@@ -4,8 +4,6 @@ import "aos/dist/aos.css";
 import Navbar from "./Navbar";
 
 
-
-
 function Header() {
 
   let ref = useRef();

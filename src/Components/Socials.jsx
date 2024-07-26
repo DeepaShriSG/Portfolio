@@ -27,6 +27,10 @@ function Socials() {
             <div className="navbar-nav" 
             data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000" data-aos-easing="ease-out-in">
 
+                 <a className="nav-link " href="https://www.leetcv.com/r/deepa_shri_4542"
+                    data-bs-toggle="tooltip" title="View Resume">
+                    <i className='bx bxs-user-detail'></i> &nbsp;  </a>
+
                 <a className="nav-link" href="https://www.linkedin.com/in/deepa-shri-1796511b5"
                     data-bs-toggle="tooltip" title="https://www.linkedin.com/in/deepa-shri-1796511b5">
                     <i className='bx bxl-linkedin-square' >

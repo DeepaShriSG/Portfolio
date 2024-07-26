@@ -1,28 +1,4 @@
-@font-face {
-  font-family: 'Roboto';
-  src: url('../Fonts/Roboto/Roboto-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Raleway';
-  src: url('../Fonts/Raleway/Raleway-VariableFont_wght.ttf') format('truetype');
-  font-weight: normal;
-  font-size: normal;
-}
-
-@font-face {
-  font-family: "Playfair Display", serif;
-  src: url('../Fonts/PlayFair/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Poppins';
-  src: url('../Fonts/Poppins/Poppins-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-size: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 #root {
 
@@ -60,10 +36,9 @@ li {
 
 h1 {
   color: var(--primary);
-  font-family: "Playfair Display", serif;
-  font-size: 42px;
+  font-family: "Raleway", sans-serif;
   font-weight: var(--font-weight-large);
-  
+  text-transform: uppercase;
 }
 
 h3 {
@@ -137,7 +112,7 @@ input::placeholder{
 }
 
 .bx{
-  color: #be27ec;
+  color: #7d8082;
   font-size: 36px;
   cursor: pointer;
 }
@@ -146,7 +121,6 @@ input::placeholder{
 .menu button:focus {
   transform: rotate(180deg);
 }
-
 
 .navbg{
   background-color: #F9F9F9;
@@ -246,7 +220,7 @@ input::placeholder{
 }
 
 
-Form Label{
+Form Label, .skill-content{
   color: #08FFC8;
 }
 
@@ -292,9 +266,6 @@ Form Label{
 }
 
 @media (min-width:768) {
-   
-
- 
   .tag-content{
     display: grid;
     justify-content: flex-start;

@@ -1,26 +1,28 @@
-import React from 'react'
-import Skills from './Skills';
-import Header from './Header';
-import Projects from './Projects';
-import Contact from './Contact';
-import Footer from './Footer'
-import Socials from "./Socials";
+import React, { Suspense, lazy } from 'react';
+
+// Dynamically import components
+const Header = lazy(() => import('./Header'));
+const Socials = lazy(() => import('./Socials'));
+const Projects = lazy(() => import('./Projects'));
+const Skills = lazy(() => import('./Skills'));
+const Education = lazy(() => import('./Education'));
+const Contact = lazy(() => import('./Contact'));
+const Footer = lazy(() => import('./Footer'));
 
 function Home() {
-   
- 
-    return <> 
-                  <div id="wrapper">
-                       
-                       <Header/>
-                       <Socials/>
-                       <Projects/>
-                       <Skills/>
-                       <Contact/>
-                       <Footer/>
-                  </div>
-    </>
-
+  return (
+    <div id="wrapper">
+      <Suspense fallback={<div>Loading...</div>}>
+        <Header />
+        <Socials />
+        <Projects />
+        <Skills />
+        <Education />
+        <Contact />
+        <Footer />
+      </Suspense>
+    </div>
+  );
 }
 
-export default Home
+export default Home;

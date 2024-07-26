@@ -53,7 +53,10 @@ function Navbar() {
                                 <a className="nav-link " aria-current="page" href="#scrollspyHeading3">Skills</a>
                                 </li>
                                 <li className="nav-item">
-                                <a className="nav-link " aria-current="page" href="#scrollspyHeading4">Contact</a>
+                                <a className="nav-link " aria-current="page" href="#scrollspyHeading4">About</a>
+                                </li>
+                                <li className="nav-item">
+                                <a className="nav-link " aria-current="page" href="#scrollspyHeading5">Contact</a>
                                 </li>
                             </ul>
 
