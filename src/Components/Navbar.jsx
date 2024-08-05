@@ -17,7 +17,8 @@ function Navbar() {
         }
     }, [])
 
-    const handleScroll = ()=>{ (window.scrollY > 70) ? setscroll(true) :  setscroll(false);   }
+    const handleScroll = ()=>{ (window.scrollY > 70) ? setscroll(true)  :  setscroll(false);   }
+
 
   return <>
            <nav className= {`navbar navbar-expand-lg fixed-top ${scroll ? "navbg" : "default"}`} id="navbar-example2">
@@ -44,7 +45,7 @@ function Navbar() {
                         <div className="offcanvas-body" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="1000" data-aos-easing="ease-out-in">
                             <ul className="nav nav-pills navbar-nav justify-content-end flex-grow-1 pe-5">
                                 <li className="nav-item">
-                                <a className="nav-link" aria-current="page" href="#scrollspyHeading1">Home</a>
+                                <a className="nav-link" aria-current="page" href="#scrollspyHeading1" >Home</a>
                                 </li>
                                 <li className="nav-item">
                                 <a className="nav-link " aria-current="page" href="#scrollspyHeading2">Projects</a>

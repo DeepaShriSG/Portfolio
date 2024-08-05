@@ -10,6 +10,12 @@ let data = [
 
   },
   {
+    imgurl:"/public/chatApp.png",
+    title:"WebChat",
+    description:"ChatApp ChatApp is a real-time messaging application that allows users to start conversations, send messages, and manage active users. Built with React, Socket.IO, and Axios, it provides a seamless chat experience.",
+    link:"https://messengerfe.netlify.app/"
+  },
+  {
     imgurl:"/ecommerce.png",
     title:"Ecommerce",
     description:"This is a modern eCommerce application built with React, React Router, and various supporting libraries and services. The application allows users to browse products, manage a shopping cart, and proceed to checkout. It also includes features for user registration and authentication.",
