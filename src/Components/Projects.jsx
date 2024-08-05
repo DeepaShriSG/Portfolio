@@ -10,7 +10,7 @@ let data = [
 
   },
   {
-    imgurl:"/public/chatApp.png",
+    imgurl:"/chatApp.png",
     title:"WebChat",
     description:"ChatApp ChatApp is a real-time messaging application that allows users to start conversations, send messages, and manage active users. Built with React, Socket.IO, and Axios, it provides a seamless chat experience.",
     link:"https://messengerfe.netlify.app/"
