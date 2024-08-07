@@ -1,5 +1,7 @@
 import React, { Suspense, lazy } from 'react';
 
+import Loading from "../common/Loading"
+
 // Dynamically import components
 const Header = lazy(() => import('./Header'));
 const Socials = lazy(() => import('./Socials'));
@@ -12,7 +14,7 @@ const Footer = lazy(() => import('./Footer'));
 function Home() {
   return (
     <div id="wrapper">
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<><Loading/></>}>
         <Header />
         <Socials />
         <Projects />
