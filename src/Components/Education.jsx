@@ -34,7 +34,7 @@ function Education() {
 
   return (
     <>
-      <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-smooth-scroll="true" tabIndex="0" id="scrollspyHeading3">
+      <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-smooth-scroll="true" tabIndex="0" id="scrollspyHeading4">
         <section className="m-5 scrollspy-example bsb-timeline-4 bg-light py-3 py-md-5 py-xl-8">
           <div className="container">
             <h1 className="text-start">About</h1>

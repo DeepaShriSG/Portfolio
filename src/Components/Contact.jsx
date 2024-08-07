@@ -41,7 +41,7 @@ const templateId =`${import.meta.env.VITE_TEMPLATE_ID}`;
 
     return (
       <>
-        <div id="scrollspyHeading4">
+        <div className="contact-section p-2" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-smooth-scroll="true" tabIndex="0" id="scrollspyHeading5">
           <section className="contact-section scrollspy-example">
             <div className="m-4">
               <div className="container">
