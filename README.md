@@ -1,9 +1,4 @@
 
-Sure, here’s a copy-paste ready template for your README.md:
-
-markdown
-Copy code
-# My Portfolio
 
 Welcome to my portfolio! Here you can find a collection of my projects, skills, and experiences. The portfolio is designed to showcase my work and provide insight into my development journey.
 
