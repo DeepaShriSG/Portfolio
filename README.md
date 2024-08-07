@@ -23,24 +23,7 @@ You can view my portfolio live at [https://dheecodes.netlify.app/](https://dheec
 - **Backend**: Node.js (if applicable)
 - **Hosting**: Netlify
 
-## Setup
 
-To run this project locally, clone the repository and install the dependencies:
-
-```bash
-git clone [repository-url]
-cd [repository-directory]
-npm install
-To start the development server:
-
-bash
-Copy code
-npm start
-Contributing
-If you have suggestions or improvements, feel free to open an issue or submit a pull request.
-
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 Contact
 Email: deepashrig15@gmail.com
