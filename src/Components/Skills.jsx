@@ -10,7 +10,7 @@ function Skills() {
         <section className="m-5 scrollspy-example">
           <div className="row">
           <div className="container ">
-            <h1 className="text-start">Skills</h1>
+            <h1 className="heading-dark-background">Skills</h1>
             <div className="row p-3 m-lg-3 align-items-center text-center">
               <div className=" col-sm-3 col-lg-4 col-md-6">
                 <div className="tag-heading d-flex justify-content-center align-items-center text-center">

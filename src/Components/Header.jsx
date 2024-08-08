@@ -34,7 +34,7 @@ function Header() {
               <div className="hero-content col-lg-12 p-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="2000" data-aos-easing="ease-out-in">
                 <h5 className="px-2">Hi I'm,</h5>
                 <p className="px-2 title-name">Deepa Shri.</p>
-                <h3 className="px-2">A <span ref={ref} style={{color:"voilet" , display: "inline-block"}} ></span>&nbsp;</h3>
+                <h3 className="px-2">A <span ref={ref} style={{color:"#fed766" , display: "inline-block"}} ></span>&nbsp;</h3>
                 <h5 className="px-2">
                   I'm currently diving deep into creating and enhancing websites
                   to make them super fast and effective.

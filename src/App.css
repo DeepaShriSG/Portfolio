@@ -13,7 +13,7 @@
   --font-weight-small: 300;
 
   /* Heading colors */
- --primary:   #6e2bf4;
+ --primary:   #30343f;
  --secondary: #98DED9;
  --tertiary: #16f2f5;
  --navcolor: #dddddddd;
@@ -35,10 +35,18 @@ li {
 }
 
 h1 {
-  color: var(--primary);
   font-family: "Raleway", sans-serif;
   font-weight: var(--font-weight-large);
   text-transform: uppercase;
+  text-align: start;
+}
+
+.heading-light-background {
+  color: #30343f;
+}
+
+.heading-dark-background {
+  color: #FAFAFF;
 }
 
 h3 {
@@ -59,7 +67,7 @@ h5 {
 }
 
 h2{
-  color: #9a6df3;
+  color:#fed766;
   text-align: center;
   font-family:"Poppins",sans-serif;
   font-weight: 400;
@@ -69,7 +77,6 @@ h2{
 
 a {
   text-decoration: none;
-  color: black;
   font-family: "Raleway", sans-serif;
 }
 
@@ -93,7 +100,7 @@ input::placeholder{
 }
 
 .title-name{
-  color: violet;
+  color: #c9c0c9;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 54px;
   font-weight: 600;
@@ -122,11 +129,7 @@ input::placeholder{
   transform: rotate(180deg);
 }
 
-.navbg{
-  background-color: #F9F9F9;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-  
-}
+
 
 
  .vr {
@@ -159,17 +162,25 @@ input::placeholder{
   color: #08FFC8;
 }
 
-.nav-item a , .default{
-  color:#0d6efd;
-  background-color: transparent;
+.nav-item a{
+  color:#fed766;
   font-size: var(--font-small);
   font-weight: var(--font-weight-large);
   font-family: "Raleway", sans-serif;
 }
 
+.navbg{
+  background-color: white;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); 
+}
+
+ .navbg .nav-link{
+  color: #03114e;
+}
 
 
-.navbar-nav .nav-link.active,
+
+.navbar-nav .nav-link:active,
 .navbar-nav .nav-link:active {
   color: #08FFC8;
 }
@@ -215,7 +226,7 @@ input::placeholder{
 }
 
 .contact-subtitle{
-  color: violet;
+  color: #fed766;
   font-weight: 400;
 }
 
@@ -226,12 +237,16 @@ Form Label, .skill-content{
 
 
 .submit-btn{
-  background-color: #4f46e5;
+  background-color: #203562;
   color:white;
-  
 }
 
-.submit-btn:focus , .submit-btn:hover{
+.sendBtn{
+  background-color: #fed766;
+  color: #010518;
+}
+
+.submit-btn:focus , .submit-btn:hover, .sendBtn:focus,.sendBtn:hover{
   background-color: #08FFC8;
   color: #010518;
 }

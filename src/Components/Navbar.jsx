@@ -21,7 +21,7 @@ function Navbar() {
 
 
   return <>
-           <nav className= {`navbar navbar-expand-lg fixed-top ${scroll ? "navbg" : "default"}`} id="navbar-example2">
+           <nav className= {`navbar navbar-expand-lg fixed-top ${scroll ? "navbg" : ""}`} id="navbar-example2">
                     
                     <a className="navbar-brand px-3 mx-3" href="#">
                         <img src="/Ds logo.jpg" className="rounded-circle" alt="" srcSet="" width={50} height={50} />

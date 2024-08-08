@@ -112,7 +112,7 @@ const templateId =`${import.meta.env.VITE_TEMPLATE_ID}`;
                       </Form.Group>
   
                       <div className="m-4 text-center">
-                        <button className="btn submit-btn m-2" type="submit" value="Send">
+                        <button className="btn sendBtn m-2" type="submit" value="Send">
                           Send mail
                         </button>
                       </div>
