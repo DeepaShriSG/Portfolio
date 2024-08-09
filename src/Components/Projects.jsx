@@ -11,7 +11,8 @@ let data = [
     Database: "MongoDB",
     Authentication: "JWT",
     link:"https://motorcycleservice.netlify.app/",
-    github:"https://github.com/DeepaShriSG/MotorService-FE"
+    client:"https://github.com/DeepaShriSG/MotorService-FE",
+    server:"https://github.com/DeepaShriSG/MotorcycleService-BE"
 
   },
   {
@@ -23,7 +24,9 @@ let data = [
     Database: "MongoDB",
     Authentication: "JWT",
     link:"https://messengerfe.netlify.app/",
-    github:"https://github.com/DeepaShriSG/MessengerFE"
+    client:"https://github.com/DeepaShriSG/MessengerFE",
+    server:"https://github.com/DeepaShriSG/Messenger-BE"
+
   },
   {
     imgurl:"/ecommerce.png",
@@ -34,7 +37,8 @@ let data = [
     Database: "MongoDB",
     Authentication: "JWT",
     link:"https://ecomshallow.netlify.app/",
-    github:"https://github.com/DeepaShriSG/Ecom-FE"
+    client:"https://github.com/DeepaShriSG/Ecom-FE",
+    server:"https://github.com/DeepaShriSG/Blog-BE"
 
   },
   {
@@ -46,7 +50,8 @@ let data = [
     Database: "MongoDB",
     Authentication: "JWT",
     link:"https://dheblogs.netlify.app/",
-    github:"https://github.com/DeepaShriSG/Blog-FE"
+    client:"https://github.com/DeepaShriSG/Blog-FE",
+    server:"https://github.com/DeepaShriSG/Blog-BE"
   },
   {
     imgurl:"/Restaraunt.png",
@@ -57,7 +62,8 @@ let data = [
     Database: "",
     Authentication: "",
     link:"https://super-gnome-f7b880.netlify.app/",
-    github:"https://github.com/DeepaShriSG/Restaurant-Landing-page"
+    client:"https://github.com/DeepaShriSG/Restaurant-Landing-page",
+    server:""
 
   },
   {
@@ -69,7 +75,8 @@ let data = [
     Database: "MongoDB",
     Authentication: "JWT",
     link:"https://strong-pastelito-1aff28.netlify.app/",
-    github:"https://github.com/DeepaShriSG/Email-FE"
+    client:"https://github.com/DeepaShriSG/Email-FE",
+    server:""
 
   },
   {
@@ -81,7 +88,8 @@ let data = [
     Database: "",
     Authentication: "",
     link:"https://sparkly-dodol-1b8636.netlify.app/",
-    github:"https://github.com/DeepaShriSG/NotesRedux"
+    client:"https://github.com/DeepaShriSG/NotesRedux",
+    server:""
   },
 
 ]
