@@ -40,10 +40,11 @@ function Header() {
                   to make them super fast and effective.
                 </h5>
               </div>
+             
           </div>
-
+          <a className="btn resumeBtn m-4" target="_blank" href="https://drive.google.com/file/d/1vNfTJY1u5kJ0A7ZF-uMbcCyGjpZ_WVsR/view?usp=sharing" role="button">View Resume</a>
           </div>
-         
+          
         </section>
         
 

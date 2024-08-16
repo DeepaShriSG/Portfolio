@@ -236,18 +236,21 @@ Form Label, .skill-content{
 }
 
 
+
 .submit-btn{
   background-color: #203562;
   color:white;
 }
 
-.sendBtn{
+
+
+.sendBtn , .resumeBtn{
   background-color: #fed766;
   color: #010518;
 }
 
-.submit-btn:focus , .submit-btn:hover, .sendBtn:focus,.sendBtn:hover{
-  background-color: #08FFC8;
+.submit-btn:focus , .submit-btn:hover, .sendBtn:focus,.sendBtn:hover, .resumeBtn:focus,.resumeBtn:hover{
+  background-color: #dfeae8;
   color: #010518;
 }
 
