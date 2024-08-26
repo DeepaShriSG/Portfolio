@@ -42,7 +42,7 @@ function Header() {
               </div>
              
           </div>
-          <a className="btn resumeBtn m-4" target="_blank" href="https://drive.google.com/file/d/1vNfTJY1u5kJ0A7ZF-uMbcCyGjpZ_WVsR/view?usp=sharing" role="button" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="2500" data-aos-easing="ease-out-in">View Resume</a>
+          <a className="btn resumeBtn m-4" target="_blank" href="https://drive.google.com/file/d/19roIsK2PfH8IqfAH-Ga2O5T5dDZMLQO5/view?usp=sharing" role="button" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="2500" data-aos-easing="ease-out-in">View Resume</a>
           </div>
           
         </section>
