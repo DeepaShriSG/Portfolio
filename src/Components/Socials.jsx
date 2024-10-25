@@ -27,12 +27,12 @@ function Socials() {
             <div className="navbar-nav" 
             data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000" data-aos-easing="ease-out-in">
 
-                 <a className="nav-link " href="https://drive.google.com/file/d/1FX8l9Sm0aAnzUO5fbVFa85Zfsvo2ZXew/view?usp=sharing"
+                 <a className="nav-link " href="https://drive.google.com/file/d/1nL-MFM2tVuoTbOE_CwZ8j-nhvBbbhoUn/view?usp=sharing"
                     data-bs-toggle="tooltip" title="View Resume" target="_blank">
                     <i className='bx bxs-user-detail'></i> &nbsp;  </a>
 
-                <a className="nav-link" href="https://www.linkedin.com/in/deepa-shri-1796511b5"
-                    data-bs-toggle="tooltip" title="https://www.linkedin.com/in/deepa-shri-1796511b5" target="_blank">
+                <a className="nav-link" href="https://in.linkedin.com/in/deepa-shri-s-g-1796511b5"
+                    data-bs-toggle="tooltip" title="https://in.linkedin.com/in/deepa-shri-s-g-1796511b5" target="_blank">
                     <i className='bx bxl-linkedin-square' >
                     </i>
                 </a>
