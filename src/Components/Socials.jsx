@@ -27,7 +27,7 @@ function Socials() {
             <div className="navbar-nav" 
             data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000" data-aos-easing="ease-out-in">
 
-                 <a className="nav-link " href="https://drive.google.com/file/d/1SSnTdDGTfotyLrvJd_bX9YNV98AVNQpR/view?usp=sharing"
+                 <a className="nav-link " href="https://drive.google.com/file/d/1FX8l9Sm0aAnzUO5fbVFa85Zfsvo2ZXew/view?usp=sharing"
                     data-bs-toggle="tooltip" title="View Resume" target="_blank">
                     <i className='bx bxs-user-detail'></i> &nbsp;  </a>
 
