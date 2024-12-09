@@ -42,6 +42,18 @@ let data = [
 
   },
   {
+    imgurl:"/outlet.png",
+    title:"Ecommerce (React-Redux)",
+    description:"This is a modern, fully functional e-commerce web application built with React. It uses Redux Toolkit for state management and TailwindCSS for styling, ensuring scalability and responsiveness.",
+    Frontend: "React-Vite, React, React Router, React Error Boundary,Redux Toolkit, React-Redux,TailwindCSS,Axios",
+    Backend: "",
+    Database: "",
+    Authentication: "OAuth",
+    link:"https://outletecom.netlify.app/",
+    client:"https://github.com/DeepaShriSG/outlet",
+    server:""
+  },
+  {
     imgurl:"/BlogApp.png",
     title:"Blog APP",
     description:" Developed a dynamic blog application featuring user authentication and admin approval functionality",
